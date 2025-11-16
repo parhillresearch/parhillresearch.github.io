@@ -1,0 +1,59 @@
+# Site settings
+title: Par Hill Research
+description: >-
+  Insights and research from Par Hill Research - exploring trends,
+  innovations, and thought leadership in our field.
+baseurl: ""
+url: "https://ngnrfsk.github.io"
+
+# Author/Company info
+author:
+  name: Par Hill Research
+  email: contact@parhillresearch.com
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+timezone: America/New_York
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Par Hill Research"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+
+# Pagination
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+# Social links (customize as needed)
+social:
+  twitter: parhillresearch
+  linkedin: company/parhillresearch
+  github: ngnrfsk

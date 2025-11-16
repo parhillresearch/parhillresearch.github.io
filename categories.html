@@ -1,0 +1,26 @@
+---
+layout: page
+title: Categories
+subtitle: Browse articles by category
+---
+
+<div class="archive-list">
+    {% for category in site.categories %}
+    <div class="archive-item">
+        <h2 id="{{ category[0] | slugify }}">{{ category[0] }}</h2>
+        <p style="color: var(--color-text-light); margin-bottom: 1rem;">
+            {{ category[1].size }} {% if category[1].size == 1 %}article{% else %}articles{% endif %}
+        </p>
+        <ul style="list-style: none;">
+            {% for post in category[1] %}
+            <li style="margin-bottom: 0.75rem;">
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                <span style="color: var(--color-text-light); font-size: 0.875rem;">
+                    — {{ post.date | date: "%B %d, %Y" }}
+                </span>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endfor %}
+</div>

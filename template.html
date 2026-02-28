@@ -173,6 +173,36 @@
       transition: background 0.2s;
     }
 
+    /* ── Tags ── */
+
+    .tag {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      padding: 0.2rem 0.55rem;
+      border-radius: 999px;
+      margin-right: 0.35rem;
+      text-transform: uppercase;
+    }
+
+    section section > p:has(.tag) {
+      padding-bottom: 0.5rem;
+      border-bottom: none;
+      margin-bottom: 0.35rem;
+      color: inherit;
+      font-size: inherit;
+    }
+
+    .tag-science    { background: #e6f4f3; color: #0d6b65; }
+    .tag-policy     { background: #dbeafe; color: #1e40af; }
+    .tag-analytics  { background: #ede9fe; color: #5b21b6; }
+    .tag-engagement { background: #fef3c7; color: #92400e; }
+    .tag-advisory   { background: #e2e8f0; color: #334155; }
+    .tag-planning   { background: #dcfce7; color: #166534; }
+    .tag-tools      { background: #f3e8ff; color: #6b21a8; }
+    .tag-ai         { background: #e0e7ff; color: #3730a3; }
+
     /* ── Contact ── */
 
     #contact > p {

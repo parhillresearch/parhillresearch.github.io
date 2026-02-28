@@ -33,6 +33,8 @@ jobs:
             --output _site/index.html
           # Copy pre-built HTML subpages (e.g. R-generated maps)
           [ -d maps ] && cp -r maps _site/maps || true
+          # Copy static assets (images etc.)
+          [ -d assets ] && cp -r assets _site/assets || true
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

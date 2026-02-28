@@ -110,10 +110,32 @@
 
     /* ── About ── */
 
+    #about > figure {
+      float: right;
+      margin: 0 0 1rem 1.75rem;
+      width: 120px;
+    }
+
+    #about > figure img {
+      width: 100%;
+      border-radius: 4px;
+      display: block;
+    }
+
+    #about > figure figcaption {
+      display: none;
+    }
+
     #about > p {
       font-size: 1.05rem;
       color: var(--text);
       max-width: 62ch;
+    }
+
+    #about::after {
+      content: "";
+      display: table;
+      clear: both;
     }
 
     /* ── Portfolio project entries ── */
@@ -190,6 +212,12 @@
     @media (max-width: 540px) {
       nav ul {
         gap: 1.25rem;
+      }
+
+      #about > figure {
+        float: none;
+        width: 90px;
+        margin: 0 0 1rem 0;
       }
     }
   </style>

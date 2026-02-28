@@ -4,6 +4,8 @@ title: Parliament Hill Research | Air quality policy, science, communications
 
 ## About
 
+![Parliament Hill Research logo](assets/tree.jpg)
+
 Iarla Kilbane-Dawe and associates have led over €100M in programmes in air pollution policy, atmospheric science, sustainable transport, and AI for the environment. Successes include Europe's first AI-enabled satellite, making the case for low-cost cycle lanes in London, and formulating London's most progressive air pollution limits, and developing UK Government guidance on communicating about air pollution.
 
 ## Portfolio
@@ -14,7 +16,7 @@ One Central London borough has negative NO~2~ trends everywhere except in 4 stre
 
 ### Diffusion Tube Mapping Package in R (2025)
 
-We developed a simple OpenSource R library to create zoomable, animated air pollution maps from tables of measurements, in the form of standalone HTML files, such as this [map of an air pollution episode in January 2024](maps/episode.html). These maps can easily be shared by email or loaded into websites.
+We developed a simple OpenSource R library to create zoomable, animated air pollution maps from tables of measurements, in the form of standalone HTML files, such as this [map of an air pollution episode in January 2024 (allow 15 seconds to load)](maps/episode.html). These maps can easily be shared by email or loaded into websites.
 
 ### Air Quality Action Planning (2024-25)
 

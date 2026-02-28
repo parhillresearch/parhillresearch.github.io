@@ -29,7 +29,10 @@ jobs:
           pandoc content.md \
             --standalone \
             --template template.html \
+            --section-divs \
             --output _site/index.html
+          # Copy pre-built HTML subpages (e.g. R-generated maps)
+          [ -d maps ] && cp -r maps _site/maps || true
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

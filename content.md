@@ -4,7 +4,7 @@ title: Parliament Hill Research | Air quality policy, science, communications
 
 ## About
 
-Iarla Kilbane-Dawe and associates have led over €100M in programmes in air pollution policy, atmospheric science, sustainable transport, and AI for the environment. Successes include Europe's first AI-enabled satellite, making the case for low-cost cycle lanes in London, and formulating London's most progressive air pollution limits, and developed UK Government guidance on communicating about air pollution.
+Iarla Kilbane-Dawe and associates have led over €100M in programmes in air pollution policy, atmospheric science, sustainable transport, and AI for the environment. Successes include Europe's first AI-enabled satellite, making the case for low-cost cycle lanes in London, and formulating London's most progressive air pollution limits, and developing UK Government guidance on communicating about air pollution.
 
 ## Portfolio
 
@@ -24,12 +24,20 @@ For a London borough, we led full development of the air quality action plan: de
 
 For a London borough, we led development of the air quality action plan from the outcomes of a Citizens' Assembly, including presenting scientific evidence to the assembly, drafting core text, and managing councillor engagement, governance, and public consultation through to final publication.
 
+### Standby generators case study (2024)
+
+For a central London borough, we worked with the operator of 10 of their major office towers to investigate the impact of standby generators on local air quality. After detailed research into the emissions factors of over 30 generators, some commissioned in the 1970s, and investigating their operational patterns, impacts on borough-wide emissions were extrapolated. Attributable damage costs were calculated per 1MW~th~ for use in negotiations on SIL and s106 charges on developers.
+
+### Gross Emitting Vehicles experiment (2023)
+
+A novel roadside air quality sampling technology was investigated to identify possible gross emitting vehicles in the vehicle park. The feasibility of the technology for the application was investigated, including analysis of ultra-high time resolution sample data of real-world vehicle emissions. The study found that the technology applications were most viable in chaser rather than roadside applications.
+
 ### Bus Retrofit Expert Group (2022-23)
 
 For the DfT/Defra Joint Air Quality Unit we provided scientific advice on the performance of emissions control systems that were implemented during the £100M bus retrofit programme. The work of the group identified critical performance issues with the retrofit programme and led to its abandonment.
 
 ## Contact
 
-Get in touch to discuss how Par Hill Research can support your work in air quality policy, science, or communications.
+Get in touch to discuss how Parliament Hill Research can support your work in air quality policy, science, or communications.
 
 [iarlakd@parhillresearch.com](mailto:iarlakd@parhillresearch.com)

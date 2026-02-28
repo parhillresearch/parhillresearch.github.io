@@ -12,7 +12,7 @@
     }
 
     :root {
-      --bg: #ffffff;
+      --bg: #f8f9fa;
       --text: #111827;
       --muted: #6b7280;
       --accent: #1d4ed8;
@@ -37,7 +37,9 @@
     nav {
       position: sticky;
       top: 0;
-      background: var(--bg);
+      background: rgba(248,249,250,0.85);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
       border-bottom: 1px solid var(--border);
       z-index: 100;
       padding: 0 1.5rem;
@@ -118,10 +120,12 @@
 
     section section {
       margin-bottom: 0;
+      border-left: 3px solid var(--accent);
+      padding-left: 1rem;
     }
 
     section section > h3 {
-      font-size: 0.975rem;
+      font-size: 1.05rem;
       font-weight: 600;
       color: var(--text);
       margin-bottom: 0.35rem;
@@ -129,7 +133,7 @@
 
     section section > p {
       font-size: 0.925rem;
-      color: var(--muted);
+      color: #9ca3af;
       padding-bottom: 1.5rem;
       border-bottom: 1px solid var(--border);
       margin-bottom: 1.5rem;
@@ -139,6 +143,12 @@
       border-bottom: none;
       padding-bottom: 0;
       margin-bottom: 0;
+    }
+
+    section section:hover {
+      border-left-color: var(--accent);
+      background: rgba(29,78,216,0.03);
+      transition: background 0.2s;
     }
 
     /* ── Contact ── */
